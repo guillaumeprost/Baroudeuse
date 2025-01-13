@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La Baroudeuse - Louez un van bar éphémère pour vos événements inoubliables !">
+    <title>La Baroudeuse</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #5ce1e6;
+            --secondary-color: #ef946c;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: white;
+        }
+        .hero {
+            background-image: url('images/fake-header.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+        }
+        h2 {
+            color: black;
+        }
+        h5 {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<header class="hero text-center">
+    <div>
+        <img src="images/logo.jpeg" alt="La Baroudeuse Logo\" class="img-fluid mb-4" style="max-width: 200px;">
+        <h1 class="display-3 fw-bold\">La Baroudeuse</h1>
+        <p class="lead\">Louez un van bar éphémère pour des événements mémorables</p>
+        <a href="#services" class="btn btn-primary btn-lg mt-3">Découvrir nos services</a>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top pb-3" style="background-color: var(--primary-color); color: black">
+    <div class="container">
+        <a class="navbar-brand" href="#">La Baroudeuse</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#brasserie">Brasserie</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Galerie</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Services Section -->
+<section id="services" class="py-5 border-bottom" style="border-bottom: 4px solid #5ce1e6;">
+    <div class="container text-center ">
+        <h2 class="fw-bold">Nos Services</h2>
+        <p class="mb-5">Découvrez ce que La Baroudeuse peut offrir pour vos événements.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Mariages</h5>
+                        <p class="card-text">Ajoutez une touche unique à votre journée spéciale.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Fêtes privées</h5>
+                        <p class="card-text">Une expérience inoubliable pour vos invités.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Événements d'entreprise</h5>
+                        <p class="card-text">Impressionnez vos collègues avec notre bar mobile.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Brasserie Section -->
+<section id="brasserie" class="py-5 border-bottom" style="background-color: #4d4730; color: var(--primary-color)">
+    <div class="container text-center">
+        <h2 class="fw-bold"style="color: var(--primary-color)">Notre Brasserie</h2>
+        <p class="mb-5">Découvrez les bières artisanales que nous proposons à bord de notre van J9 Peugeot.</p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h5 class="fw-bold">Blonde d'été</h5>
+                <img src="images/fake-beer1.png" class="img-fluid rounded mb-3">
+                <p>Une bière légère et rafraîchissante, parfaite pour vos événements estivaux.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5 class="fw-bold">Ambrée traditionnelle</h5>
+                <img src="images/fake-beer2.png" class="img-fluid rounded mb-3">
+                <p>Une bière au goût riche et équilibré, idéale pour les amateurs de saveurs authentiques.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5 class="fw-bold">IPA artisanale</h5>
+                <img src="images/fake-beer3.png" class="img-fluid rounded mb">
+                <p>Une bière au goût riche et équilibré, idéale pour les amateurs de saveurs authentiques.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="van-dimensions" class="py-5 border-bottom" style="border-bottom: 4px solid #5ce1e6;">
+    <div class="container text-center">
+        <h2 class="fw-bold">Découvrez le Van</h2>
+        <p class="mb-5">Voici une vue détaillée du van J9 Peugeot, transformé en bar éphémère.</p>
+        <img src="images/dimentions.JPG" alt="Vue détaillée du van J9" class="img-fluid rounded">
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="py-5 border-bottom" style="border-bottom: 4px solid #5ce1e6; background-color: var(--primary-color);">
+    <div class="container text-center">
+        <h2 class="fw-bold">Galerie</h2>
+        <p class="mb-5">Découvrez La Baroudeuse en action.</p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="images/fakescene1.png" alt="Gallery Image 1" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/fakescene2.png" alt="Gallery Image 2" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/fakescene3.png" alt="Gallery Image 3" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Calendar Section -->
+<section id="calendar" class="py-5 border-bottom" style="background-color: #f8f9fa;">
+    <div class="container text-center">
+        <h2 class="fw-bold">Calendrier des Disponibilités</h2>
+        <p class="mb-5">Réservez votre événement en vérifiant nos disponibilités ci-dessous.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <iframe src="https://calendar.google.com/calendar/embed?src=your_calendar_id&ctz=Europe/Paris" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5" style="background-color: var(--primary-color);">
+    <div class="container text-center">
+        <h2 class="fw-bold">Contactez-nous</h2>
+        <p class="mb-5">Nous sommes prêts à répondre à toutes vos questions.</p>
+        <form>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="Votre nom" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" placeholder="Votre email" required>
+                </div>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="5" placeholder="Votre message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 La Baroudeuse. Tous droits réservés.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
